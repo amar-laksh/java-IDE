@@ -1,4 +1,3 @@
-package swings;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedReader;
@@ -122,8 +121,7 @@ public CodingWindow()
     super("All-in-One Text Editor");
     try {
 		UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-	} catch (ClassNotFoundException | InstantiationException
-			| IllegalAccessException | UnsupportedLookAndFeelException e) {
+	} catch (ClassNotFoundException | InstantiationException| IllegalAccessException | UnsupportedLookAndFeelException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
